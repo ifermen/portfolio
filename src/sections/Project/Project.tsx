@@ -30,13 +30,13 @@ export function Project() {
         Cosas que he construido
       </h3>
       <div className="hidden sm:grid gap-6" style={{ gridTemplateColumns: 'repeat(auto-fit, minmax(350px, 1fr))' }}>
-        {projects.map(p => (
-          <ProjectItem project={p} />
+        {projects.map((p, i) => (
+          <ProjectItem key={i} project={p} />
         ))}
       </div>
       <div ref={scrollRef} className="flex sm:hidden gap-4 overflow-x-auto snap-x snap-mandatory px-6 scrollbar-none">
-        {projects.map(p => (
-          <div className="snap-start shrink-0 w-[80vw] max-w-sm">
+        {projects.map((p, i) => (
+          <div key={i} className="snap-start shrink-0 w-[80vw] max-w-sm">
             <ProjectItem project={p} />
           </div>
         ))}

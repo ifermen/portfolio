@@ -28,8 +28,8 @@ export function ProjectItem({ project }: ProjectItemProps) {
         <span className="font-bold">{project.title}</span>
         <p className="text-text-muted text-sm font-light">{project.introduction}</p>
         <div className="flex flex-row gap-1 flex-wrap mt-2">
-          {project.stack.map(item => (
-            <Tag style="active">
+          {project.stack.map((item, i) => (
+            <Tag key={i} style="active">
               {item}
             </Tag>
           ))}

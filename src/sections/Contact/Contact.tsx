@@ -10,8 +10,8 @@ export function Contact() {
     <section className="flex flex-col gap-5 p-5">
       <h2 className="font-mono text-accent-light" id="contact">// 04 contacto</h2>
       <h3 className="sm:text-3xl text-xl">Contactame</h3>
-      {contact.text.map((p) => (
-        <p className="text-text-muted sm:text-md text-sm text-justify">{p}</p>
+      {contact.text.map((p, i) => (
+        <p key={i} className="text-text-muted sm:text-md text-sm text-justify">{p}</p>
       ))}
       <div className="flex flex-col sm:flex-row gap-4">
         <a href={`mailto:${contact.email}`}>
