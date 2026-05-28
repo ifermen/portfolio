@@ -1,0 +1,136 @@
+{
+  "hero": {
+    "fullName": "Iván Fernández Méndez",
+    "headLine": "Desarrollador de Software - Full Stack",
+    "introduction": "Desarrollador full-stack en crecimiento. Me gusta construir tanto frontend como backend, aprender nuevas tecnologías y convertir ideas en productos reales.",
+    "github": "https://github.com/ifermen"
+  },
+  "aboutMe": {
+    "headLine": "Hola, soy Iván",
+    "content": [
+      "Desarrollador de software con experiencia en desarrollo backend, frontend y full stack. He trabajado con tecnologías como Java, Spring Boot, React, Angular, TypeScript, Kotlin y SQL, participando en el desarrollo de APIs REST, aplicaciones web y soluciones multiplataforma.",
+      "Actualmente trabajo como Desarrollador Backend en CaixaBank Tech, donde continúo ampliando mis conocimientos en arquitectura de software, buenas prácticas de desarrollo y trabajo en equipo dentro de entornos ágiles.",
+      "Me considero una persona con gran capacidad de aprendizaje y adaptación, interesada en seguir creciendo profesionalmente y explorar nuevas tecnologías y herramientas dentro del desarrollo de software."
+    ],
+    "principalStack": [
+      "Java",
+      "Spring Boot",
+      "React",
+      "SQL",
+      "TypeScript",
+      "C#",
+      ".NET"
+    ],
+    "secondaryStack": [
+      "Angular",
+      "Kotlin",
+      "Python",
+      "Databases",
+      "Angular",
+      "Git",
+      "JUnit",
+      "PHP"
+    ]
+  },
+  "projects": [
+    {
+      "imgKey": "GymHub",
+      "title": "GymHub - Cliente",
+      "introduction": "Aplicación web para la gestión de un gimnasio conectada a una API backend.",
+      "stack": [
+        "React",
+        "TypeScript",
+        "Tailwind CSS",
+        "Vite"
+      ],
+      "linkDemo": "",
+      "linkCode": ""
+    },
+    {
+      "imgKey": "GymHubApi",
+      "title": "GymHub - API",
+      "introduction": "API REST segura para la gestión de usuarios, reservas y datos del gimnasio.",
+      "stack": [
+        "Java",
+        "Spring Boot",
+        "MySQL",
+        "JWT"
+      ],
+      "linkDemo": "",
+      "linkCode": ""
+    },
+    {
+      "imgKey": "Portfolio",
+      "title": "Portfolio",
+      "introduction": "Sitio web personal diseñado para presentar mis proyectos y tecnologías.",
+      "stack": [
+        "React",
+        "TypeScript",
+        "Tailwind CSS",
+        "Vite"
+      ],
+      "linkDemo": "",
+      "linkCode": ""
+    },
+    {
+      "imgKey": "MiniChef",
+      "title": "MiniChef",
+      "introduction": "Red social móvil para descubrir, compartir y guardar recetas de cocina.",
+      "stack": [
+        "Kotlin",
+        "Android Studio",
+        "Firebase",
+        "Firestore"
+      ],
+      "linkDemo": "",
+      "linkCode": ""
+    }
+  ],
+  "experience": [
+    {
+      "title": "Desarrollador Backend",
+      "whereWhen": "CaixaBank Tech | Febrero 2026 - Mayo 2026",
+      "description": "Participé en el desarrollo de una API REST para la gestión de personal en proyectos, diseñada para ser consumida por un cliente frontend. La aplicación estaba estructurada siguiendo una arquitectura hexagonal e incluía funcionalidades de importación y exportación de archivos Excel.",
+      "stack": [
+        "Spring Boot",
+        "Hexagonal",
+        "Java",
+        "JUnit",
+        "QA",
+        "GitLab"
+      ]
+    },
+    {
+      "title": "Prácticas Duales de Desarrollo Web",
+      "whereWhen": "CaixaBank Tech | Abril 2025 - Junio 2025",
+      "description": "Participé en el desarrollo de un BFF utilizando Spring Boot y una API REST consumida por un frontend desarrollado en React. Trabajé en la integración entre backend y frontend dentro de un entorno colaborativo.",
+      "stack": [
+        "Spring Boot",
+        "React",
+        "Java",
+        "TypeScript",
+        "GitLab"
+      ]
+    },
+    {
+      "title": "Desarrollador Full Stack",
+      "whereWhen": "Alteda Soluciones | Febrero 2023 - Febrero 2024",
+      "description": "Desarrollo de una aplicación web orientada a la gestión de proyectos y obras de infraestructuras eléctricas y de telecomunicaciones. Participación en el desarrollo full stack utilizando ASP.NET, JavaScript y bases de datos SQL.",
+      "stack": [
+        "ASP.NET",
+        "EXT.NET",
+        "C#",
+        "JavaScript",
+        "SQL"
+      ]
+    }
+  ],
+  "contact": {
+    "text": [
+      "Disfruto explorando nuevas tecnologías y enfrentándome a retos que me permitan seguir creciendo profesional y técnicamente."
+    ],
+    "email": "ivanfernandezmendez.26@gmail.com",
+    "phone": "643 60 68 07",
+    "linkedin": "https://www.linkedin.com/in/iv%C3%A1n-fern%C3%A1ndez-m%C3%A9ndez-0a734a280/"
+  }
+}
