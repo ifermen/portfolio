@@ -43,8 +43,8 @@
         "Tailwind CSS",
         "Vite"
       ],
-      "linkDemo": "",
-      "linkCode": ""
+      "linkDemo": "https://gymhub-client.onrender.com",
+      "linkCode": "https://github.com/ifermen/gymhub-client"
     },
     {
       "imgKey": "GymHubApi",
@@ -56,8 +56,8 @@
         "MySQL",
         "JWT"
       ],
-      "linkDemo": "",
-      "linkCode": ""
+      "linkDemo": "https://gymhub-api.onrender.com/swagger-ui.html",
+      "linkCode": "https://github.com/ifermen/gymhub-api"
     },
     {
       "imgKey": "Portfolio",
@@ -70,7 +70,7 @@
         "Vite"
       ],
       "linkDemo": "",
-      "linkCode": ""
+      "linkCode": "https://github.com/ifermen/portfolio"
     },
     {
       "imgKey": "MiniChef",
@@ -82,8 +82,7 @@
         "Firebase",
         "Firestore"
       ],
-      "linkDemo": "",
-      "linkCode": ""
+      "linkCode": "https://github.com/ifermen/MiniChef"
     }
   ],
   "experience": [

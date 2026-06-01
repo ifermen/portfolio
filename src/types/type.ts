@@ -17,7 +17,7 @@ export interface Project {
   title: string,
   introduction: string,
   stack: string[],
-  linkDemo: string,
+  linkDemo?: string,
   linkCode: string
 }
 

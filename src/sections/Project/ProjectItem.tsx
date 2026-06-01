@@ -35,18 +35,20 @@ export function ProjectItem({ project }: ProjectItemProps) {
           ))}
         </div>
         <div className="flex flex-row gap-3 mt-2 w-full">
-          <a className="w-full sm:w-fit">
+          <a className="w-full sm:w-fit" href={project.linkCode}>
             <button className="border border-accent-light/30 py-1 px-3 rounded-lg text-accent-light flex flex-row items-center justify-center gap-1 transition-all duration-200 hover:bg-accent/10 hover:border-accent-light/50 hover:-translate-y-0.5 active:translate-y-0 active:bg-accent/5 cursor-pointer w-full sm:w-fit">
               <img src={github} alt="Icono de GitHub" className="h-full w-5" />
               Code
             </button>
           </a>
-          <a className="w-full sm:w-fit">
-            <button className="border border-accent-light/30 py-1 px-3 rounded-lg text-accent-light flex flex-row items-center justify-center gap-1 transition-all duration-200 hover:bg-accent/10 hover:border-accent-light/50 hover:-translate-y-0.5 active:translate-y-0 active:bg-accent/5 cursor-pointer w-full sm:w-fit">
-              <img src={link} alt="Icono de enlace externo" className="h-full w-5" />
-              Demo
-            </button>
-          </a>
+          {project.linkDemo ? (
+            <a className="w-full sm:w-fit" href={project.linkDemo}>
+              <button className="border border-accent-light/30 py-1 px-3 rounded-lg text-accent-light flex flex-row items-center justify-center gap-1 transition-all duration-200 hover:bg-accent/10 hover:border-accent-light/50 hover:-translate-y-0.5 active:translate-y-0 active:bg-accent/5 cursor-pointer w-full sm:w-fit">
+                <img src={link} alt="Icono de enlace externo" className="h-full w-5" />
+                Demo
+              </button>
+            </a>
+          ) : ""}
         </div>
       </div>
     </article>
